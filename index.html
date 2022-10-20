@@ -1,3 +1,73 @@
 Hello World
 こんにちはあ
 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テキストにスタイル設定</title>
+    <style>
+        /*これはcssのコメントです*/
+        /*
+        複数行
+        書けちゃいます
+        */ 
+        h1 {
+            font-size : 2.5em;
+            font-family : cursive;
+            color : #ff0000;
+        }  
+        h2{
+            font-size : 2.0em;
+            font-family:fantasy;
+            color : rgb(0, 255, 255);
+        }  
+        p{
+            font-size : 1.2em;
+            font-family : sans-serif;
+            color : blue;
+        }
+        span{
+            font:bold italic 1.7em Serif;
+            background-color: magenta;
+            color : white ;
+        }
+        h3{
+            font-size : 200% ;
+            color : white !important ;
+            background-color: black;
+        }
+        
+        #a{
+            color : black;
+        }
+        h4{
+            background-color: black;
+        }
+        .shiro{
+            color: white;]
+            
+        }
+
+    </style>
+</head>
+<body>
+    <!-- これはコメントです。-->
+  <h1>Hello!mitomo</h1> 
+  <h1 id="a">wqkefjgbhngspejboefpign</h1> 
+  <h2>Hello!mitomo</h2> 
+  <h2>wqkefjgbhngspejboefpign</h2> 
+  <p>This is <span>sample</span> content</p>
+  <h3>java</h3>
+  <h3 style="color: #00ff00; font-size: 300%;" >おためし</h3>
+  <h4>1</h4>
+  <h4 class="shiro" >2</h4>
+  <h4 class="shiro" >3</h4>
+  <h4>4</h4>
+  <!--タグは直接かける、直接の優先度低
+!important で優先度は奪える-->
+
+</body>
+</html>
