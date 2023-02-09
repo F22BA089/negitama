@@ -1,0 +1,29 @@
+.button1 {
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 6px 25px;
+    color: #0367cb;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    box-shadow: 0 2px 4px -2px rgb(33 37 56 / 25%);
+    border-radius: 0.45rem;
+    border-color: rgb(80,80,80,0.1);
+}
+/*
+.button1:before {
+    content: "\f005";
+    position: relative;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 8px;
+    color: #6bb6ff;
+    opacity: 0.3;
+    font-size: 1.3rem;
+    transform: translateY(-1px);
+}
